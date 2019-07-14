@@ -13,6 +13,9 @@
 		22A7274622DA40F800EF799B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A7274422DA40F800EF799B /* Main.storyboard */; };
 		22A7274822DA40FA00EF799B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A7274722DA40FA00EF799B /* Assets.xcassets */; };
 		22A7274B22DA40FA00EF799B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A7274922DA40FA00EF799B /* LaunchScreen.storyboard */; };
+		22A7275422DA4C1E00EF799B /* mentionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7275222DA4C1E00EF799B /* mentionCell.swift */; };
+		22A7275522DA4C1E00EF799B /* mentionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A7275322DA4C1E00EF799B /* mentionCell.xib */; };
+		22A7275722DA4DD300EF799B /* MentionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7275622DA4DD300EF799B /* MentionModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		22A7274722DA40FA00EF799B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22A7274A22DA40FA00EF799B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22A7274C22DA40FA00EF799B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A7275222DA4C1E00EF799B /* mentionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentionCell.swift; sourceTree = "<group>"; };
+		22A7275322DA4C1E00EF799B /* mentionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mentionCell.xib; sourceTree = "<group>"; };
+		22A7275622DA4DD300EF799B /* MentionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentionModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				22A7274722DA40FA00EF799B /* Assets.xcassets */,
 				22A7274922DA40FA00EF799B /* LaunchScreen.storyboard */,
 				22A7274C22DA40FA00EF799B /* Info.plist */,
+				22A7275222DA4C1E00EF799B /* mentionCell.swift */,
+				22A7275322DA4C1E00EF799B /* mentionCell.xib */,
+				22A7275622DA4DD300EF799B /* MentionModel.swift */,
 			);
 			path = Mentions;
 			sourceTree = "<group>";
@@ -127,6 +136,7 @@
 			files = (
 				22A7274B22DA40FA00EF799B /* LaunchScreen.storyboard in Resources */,
 				22A7274822DA40FA00EF799B /* Assets.xcassets in Resources */,
+				22A7275522DA4C1E00EF799B /* mentionCell.xib in Resources */,
 				22A7274622DA40F800EF799B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +150,8 @@
 			files = (
 				22A7274322DA40F800EF799B /* ViewController.swift in Sources */,
 				22A7273F22DA40F800EF799B /* AppDelegate.swift in Sources */,
+				22A7275422DA4C1E00EF799B /* mentionCell.swift in Sources */,
+				22A7275722DA4DD300EF799B /* MentionModel.swift in Sources */,
 				22A7274122DA40F800EF799B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
